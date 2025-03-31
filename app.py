@@ -31,7 +31,7 @@ model_type = st.sidebar.radio(
 #    "Select Model Confidence", 25, 100, 40)) / 100
 
 
-if model_type == 'Pre-Trained':
+if model_type == 'CNN-CatBoost':
     model_path = Path(settings.PT_MODEL)
 #elif model_type == 'Exclusive':
 #    model_path = Path(settings.EX_MODEL)
