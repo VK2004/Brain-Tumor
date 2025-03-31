@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 # Main page heading
-st.title("Neurodegenerative Disease Detector using YOLOv8")
+st.title("Brain Tumor Detection using CNN-CatBoost")
 
 # Sidebar
 st.sidebar.header("CNN Model Config")
