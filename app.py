@@ -27,8 +27,8 @@ st.sidebar.header("CNN Model Config")
 model_type = st.sidebar.radio(
     "Select Task", ['CNN-CatBoost'])
 
-#confidence = float(st.sidebar.slider(
-#    "Select Model Confidence", 25, 100, 40)) / 100
+confidence = float(st.sidebar.slider(
+    "Select Model Confidence", 25, 100, 40)) / 100
 
 
 if model_type == 'CNN-CatBoost':
